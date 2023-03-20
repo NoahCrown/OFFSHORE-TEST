@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 1em;
+    width: 100%;
+    height: 100vh;
+}
+
+.app{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+}
+
+nav .logo {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    height: 1.5px;
+    background-color: black;
+    border: none;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+.event-info {
+    font-weight: 700;
+
+}
+
+.event-info>h2 {
+    font-size: .55rem;
+}
+
+.event-info h2:nth-child(2) {
+    font-size: .50rem;
+}
+
+.event-info h3 {
+    font-size: .4rem;
+    font-weight: 900;
+}
+
+.banner-1, .banner-2 {
+    width: 100%;
+}
+
+.banner-2{
+    margin-bottom: 1em;
+}
+
+.event-info-2, .event-info-3 {
+    text-align: center;
+}
+
+.red-header {
+    font-size: .5rem;
+    color: red;
+    font-weight: 700;
+}
+
+.click-here {
+    color: green;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.event-info-2 p,
+.event-info-3 p,
+.red-header,
+.click-here {
+    margin-bottom: 1em;
+}
+
+.event-info-2 p, .event-info-3 p, .click-here{
+    font-size: .5rem;
+
+}
+
+.logos{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.logos img{
+    width: 10%;
+}
+
+.cheers span, .cheers{
+    display: block;
+    font-weight: 700;
+}
+
+footer{
+    text-align: left;
+    margin-bottom: .5em;
+    font-size: .4rem;
+}
+
+@media only screen and (min-width: 600px) {
+    
+
+    .event-info>h2{
+        font-size: 1rem;
+    }
+
+    .event-info h2:nth-child(2){
+        font-size: .9rem;
+    }
+
+    .event-info h3{
+        font-size: .8rem;
+    }
+
+    .red-header{
+        font-size: 1.2rem;
+    }
+
+
+    .event-info-2 p, .event-info-3 p, .click-here{
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    
+
+    .event-info>h2{
+        font-size: 1.35rem;
+    }
+
+    .event-info h2:nth-child(2){
+        font-size: 1.22rem;
+    }
+
+    .event-info h3{
+        font-size: 1rem;
+    }
+
+    .red-header{
+        font-size: 1.4rem;
+    }
+
+
+    .event-info-2 p, .event-info-3 p, .click-here{
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .event-info>h2{
+        font-size:2.7rem;
+    }
+
+    .event-info h2:nth-child(2){
+        font-size: 2.4rem;
+    }
+
+    .event-info h3{
+        font-size: 2rem;
+    }
+
+    .red-header{
+        font-size: 2rem;
+    }
+
+
+    .event-info-2 p, .event-info-3 p, .click-here{
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size: 1.2rem;
+    }
+
+    .logos img{
+        width: 5%;
+    }
+
+
+}
